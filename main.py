@@ -1,6 +1,6 @@
 import gspread
 
-gc = gspread.service_account()
+gc = gspread.service_account('credentials.json')
 
 # Open a sheet from a spreadsheet in one go
 wks = gc.open("Where is the money Lebowski?").sheet1
