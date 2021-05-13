@@ -1,1 +1,1 @@
-data = []
+data = ['main', 'thing', 'is']
